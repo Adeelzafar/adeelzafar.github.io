@@ -8,38 +8,48 @@ title: "Home"
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publications</title>
+    <title>Dr. Adeel Zafar</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 40px;
-            padding: 20px;
-            background-color: #f9f9f9;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensures full height */
         }
-        h1 {
+        .container {
+            width: 60%;
+            margin: 50px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            flex: 1; /* Pushes the footer down */
+        }
+        h1, h2 {
             color: #333;
         }
-        h2 {
+        p {
+            font-size: 18px;
+            line-height: 1.6;
             color: #555;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 10px;
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
             padding: 10px;
-            background: #fff;
-            border-radius: 5px;
-            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            margin-top: auto; /* Ensures footer stays at the bottom */
         }
     </style>
 </head>
 <body>
 
-    <h1>Publications</h1>
+    <div class="container">
+        <h1>Publications</h1>
 
     <h2>Impact Factor Journal Publications</h2>
     <ul>
@@ -57,5 +67,9 @@ title: "Home"
     <ul>
         <li>Sana Javaid Raja, Adeel Zafar, Aqsa Shoaib. "A Dataset for Programming-based Instructional Video Classification and Question Answering." <i>Workshop EvalMG at COLING</i>, (2025).</li>
     </ul>
+       
+    </div>
+
+
 </body>
-</html>  
+</html>
