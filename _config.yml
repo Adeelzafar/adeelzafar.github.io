@@ -15,11 +15,11 @@ minimal: true             # use a dark header
 
 # Menu
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
+navigation:
   - {file: "index.html", title: "Home"}
   - {file: "publications.html", title: "Publications"}
   - {file: "Adeel-Resume-2025.pdf", title: "Resume"}
-  - {file: "  https://adeelzafar.github.io/Adeel/", title: "Projects"}
+  - {url: "https://adeelzafar.github.io/Adeel/", title: "Projects"}
   - {file: "contact.html", title: "Contact"}
  
 
