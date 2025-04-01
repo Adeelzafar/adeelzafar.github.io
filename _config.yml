@@ -18,8 +18,10 @@ minimal: true             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html", title: "Home"}
   - {file: "publications.html", title: "Publications"}
-  - {file: "https://adeelzafar.github.io/publications.html", title: "Resume"}
+  - {file: "Resume.pdf", title: "Resume"}
+  - {file: "  https://adeelzafar.github.io/Adeel/", title: "Projects"}
   - {file: "contact.html", title: "Contact"}
+ 
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:adeelzafar.pk@gmail.com"}
