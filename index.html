@@ -44,11 +44,25 @@ title: "Home"
             padding: 10px;
             margin-top: auto; /* Ensures footer stays at the bottom */
         }
+         img {
+        pointer-events: none;
+        user-drag: none;
+        -webkit-user-drag: none;
+        }
     </style>
+   
+
+    <script>
+        document.addEventListener('contextmenu', function(event) {
+            event.preventDefault();
+        });
+    </script>
 </head>
 <body>
 
     <div class="container">
+        <img src="Pic.jpg" alt="Adeel" style="width: 200px; height: auto; align: left; border-radius: 50%; display: block; margin: 0 auto;">
+
         <h2>Researcher | AI & Machine Learning Expert</h2>
         <p>
             I am a Postdoctoral Researcher at Halmstad University, Sweden, working on predictive maintenance projects in collaboration with Volvo. My expertise lies in applying machine learning and AI techniques to optimize industrial operations, enhance safety, and improve predictive maintenance models. Currently, I am working on projects that focus on optimizing asset performance and enhancing predictive maintenance for complex equipment such as trucks and pumps. I collaborate within an industry-academia partnership to drive innovation and improve operational efficiency in various industrial sectors.
