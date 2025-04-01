@@ -18,7 +18,6 @@ minimal: true             # use a dark header
 navigation:
   - {file: "index.html", title: "Home"}
   - {file: "publications.html", title: "Publications"}
-  - {file: "Adeel-Resume-2025.pdf", title: "Resume"}
   - {url: "https://adeelzafar.github.io/Adeel/", title: "Projects"}
   - {file: "contact.html", title: "Contact"}
  
