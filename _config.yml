@@ -19,6 +19,7 @@ navigation:
   - {file: "index.html", title: "Home"}
   - {file: "publications.html", title: "Publications"}
   - {url: "https://adeelzafar.github.io/Adeel/", title: "Projects"}
+  - {url: "https://medium.com/@adeelz", title: "Blog Posts"}
   - {file: "contact.html", title: "Contact"}
  
 
